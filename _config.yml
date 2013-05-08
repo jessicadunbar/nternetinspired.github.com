@@ -15,10 +15,10 @@ permalink: /:title
 sitename: Jekyll Me
 # Replace these details with your own (You can remove everything name: if you don't use them)
 author :
- name: yourname
- email: yourname@yourdomain.com
- github: your-username
- twitter: your-username
+ name: Rochelle Ricketts
+ email: rochelle@greenacorns.co.uk
+ github: cariad121@github
+ twitter: greenacorns
  disqus: your-username
 
 # If you have set a CNAME (pages.github.com) set your custom domain here.
