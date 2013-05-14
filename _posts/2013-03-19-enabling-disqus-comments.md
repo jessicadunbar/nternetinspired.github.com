@@ -11,5 +11,5 @@ comments: enabled
 2. Enter your Disqus shortname in _config.yml
 3. On any post you want to enable comments, just put 'comments: enabled' in the post front-matter. See the source file for this post for an example: https://raw.github.com/nternetinspired/nternetinspired.github.com/master/_posts/2013-03-19-enabling-disqus-comments.md
 
-If you don't set up a Disqus account for your your domain, or you enter the shortname incorrectly, comments won't load. It will look like this page does.
+If you don't set up a Disqus account for your domain, or you enter the shortname incorrectly, comments won't load. It will look like this page does.
 
