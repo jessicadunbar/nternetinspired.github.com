@@ -14,15 +14,15 @@ Licenses:   DBAD License http://philsturgeon.co.uk/code/dbad-license
 @bodycolor: rgb(30,17,17);
 @background: #fff;
 @baseline: 1.5em;
-@max-width: 60em;
+@max-width: 50em;
 
-@basecolor: #4183c4; // Github blue of course
+@basecolor: rgb(73,153,19);
 @lightcolor: lighten(@basecolor, 40%);
 @linkcolor: @basecolor;
 
 @serif        : Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
-@sanserif     : "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@bodyfamily   : @serif;
+@sanserif     : "Lato", sans-serif;
+@bodyfamily   : @sanserif;
 @codefamily   : Monaco, Courier New, monospace;
 
 @bordercolor      : rgb(239,239,239);
@@ -46,14 +46,11 @@ textarea {
     color: @bodycolor;
 }
 
-html {
-    background: @basecolor;
-}
-
 body {
     font-size: 75%;
-    line-height: 1.4;
+    line-height: 1.6;
     font-family: @bodyfamily;
+    font-weight: 300;
     background: @background;
     -webkit-font-smoothing: antialiased;
     text-shadow: 0 0 1px rgba(0,0,0,.1);
@@ -117,19 +114,13 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
-}
-
-h1,
-h2,
-h3 {
-    text-rendering: optimizeLegibility;
-    font-variant: normal !important;
-    -moz-font-feature-settings: "liga", "dlig";
-    -ms-font-feature-settings: "liga", "dlig";
-    -o-font-feature-settings: "liga", "dlig";
-    -webkit-font-feature-settings: "liga", "dlig";
-    font-feature-settings: "liga", "dlig";
+  font-weight: 300;
+  text-rendering: optimizelegibility;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1;
 }
 blockquote {
     margin: 2*@baseline 0;
@@ -193,16 +184,27 @@ section section {
 
 /* HEADER */
 [role="banner"] {
-    border-top: 5px solid @basecolor;
     text-align: center;
 
     > section {
         .container;
-        padding: @baseline;}
+        padding: @baseline;
+        border-top: 3px solid @basecolor;
+        border-bottom: 3px double #eee;
+        }
 
-    h1 {
-        margin: 0;}
 }
+/* LOGO */
+.logo {
+    background: url(../img/acorn-logo-2x.png);
+    background-size: 200px;
+    height: 57px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    .hide-text;
+}
+
 
 /* NAVIGATION */
 /* general nav */
@@ -226,6 +228,10 @@ nav ul {
     .container;
     padding: 0 @baseline @baseline;
 }
+
+[role="main"] section + section {
+        border-top: 3px double #eee;
+    }
 
 /* article banner image */
 figure {
@@ -274,15 +280,17 @@ article footer,
 
 /* SITE FOOTER */
 [role="contentinfo"] {
-    background: @basecolor;
 
     section {
         .container;
         padding: @baseline;
+        border-top: 3px double #eee;
         margin-bottom: 0;}
 
-    a {
-    color: #fff;}
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
 
     small {
         display: block;
@@ -304,12 +312,16 @@ article footer,
         text-align: left;
     }
 
-    .logo,
+    .logo-block,
     [role="navigation"] {
         display: inline-block;
         width:50%;
         vertical-align: middle;
         margin-right: -.25em;
+    }
+
+    .logo {
+        margin: 0;
     }
 
     [role="navigation"] ul {
@@ -324,8 +336,7 @@ article footer,
 
 @media only screen and (min-width: 45em) {
 
-    [role="banner"] > section,
-    [role="contentinfo"] > section {
+    [role="banner"] > section {
         padding: 2*@baseline @baseline;
     }
 
@@ -358,7 +369,7 @@ article footer,
 
     [role="banner"] > section,
     [role="contentinfo"] > section {
-        padding: 4*@baseline @baseline;
+        padding: 3*@baseline @baseline;
     }
 
 }

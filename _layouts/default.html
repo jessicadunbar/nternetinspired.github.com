@@ -8,6 +8,7 @@
 <meta name="x-ua-compatible" content="IE=edge;chrome=1" />
 <meta name="cleartype" content="on" />
 <title>{% if page.title %} {{ page.title | strip_html }} {% else %} {{ site.author.sitename }} {% endif %}</title>
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400" type="text/css">
 <link rel="stylesheet" href="/css/style.css" />
 
 <!--[if lt IE 9]>
@@ -17,13 +18,13 @@
     <body>
         <header role="banner">
             <section>
-                <div class="logo">
-                    <a href="/" /><h1> Acorn Holistic Solutions</h1></a>
+                <div class="logo-block">
+                    <a href="/" class="logo" />Acorn Holistic Solutions</a>
                 </div>
                 <nav role="navigation">
                     <ul>
                         <li><a href="/about.html">About</a></li>
-                        <li><a href="/archive.html">Services and Further Information</a></li>
+                        <li><a href="/services.html">Services and Further Information</a></li>
                     </ul>
                 </nav>
             </section>
@@ -43,7 +44,7 @@
                     <li>Telephone <a href="tel:+447779577301">0777 9577 301</a></li>
             </section>
             <section>
-                <small>&copy; 2013 {{ site.author.name }}.
+                <small>&copy; 2013 {{ site.author.name }}.</small>
             </section>
         </footer>
     </body>
