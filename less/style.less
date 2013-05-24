@@ -194,16 +194,25 @@ section section {
 
 /* HEADER */
 [role="banner"] {
-    border-top: 5px solid @basecolor;
+    border-top: 3px solid @basecolor;
     text-align: center;
 
     > section {
         .container;
         padding: @baseline;}
 
-    h1 {
-        margin: 0;}
 }
+/* LOGO */
+.logo {
+    background: url(../img/acorn-logo-2x.png);
+    background-size: 200px;
+    height: 57px;
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    .hide-text;
+}
+
 
 /* NAVIGATION */
 /* general nav */
@@ -302,12 +311,16 @@ article footer,
         text-align: left;
     }
 
-    .logo,
+    .logo-block,
     [role="navigation"] {
         display: inline-block;
         width:50%;
         vertical-align: middle;
         margin-right: -.25em;
+    }
+
+    .logo {
+        margin: 0;
     }
 
     [role="navigation"] ul {
