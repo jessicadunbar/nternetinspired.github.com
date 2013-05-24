@@ -46,10 +46,6 @@ textarea {
     color: @bodycolor;
 }
 
-html {
-    background: @basecolor;
-}
-
 body {
     font-size: 75%;
     line-height: 1.6;
@@ -188,12 +184,14 @@ section section {
 
 /* HEADER */
 [role="banner"] {
-    border-top: 3px solid @basecolor;
     text-align: center;
 
     > section {
         .container;
-        padding: @baseline;}
+        padding: @baseline;
+        border-top: 3px solid @basecolor;
+        border-bottom: 3px double #eee;
+        }
 
 }
 /* LOGO */
@@ -285,6 +283,10 @@ article footer,
         border-top: 3px double #eee;
         margin-bottom: 0;}
 
+        ul {
+            padding: 0;
+        }
+
     small {
         display: block;
         margin: 1em 0;
@@ -324,6 +326,10 @@ article footer,
 
     [role="navigation"] li a {
         padding: .5em 0 .5em 2em;
+    }
+
+    [role="contentinfo"] li {
+        display: inline-block;
     }
 }
 
