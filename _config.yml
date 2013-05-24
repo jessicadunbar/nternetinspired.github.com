@@ -12,13 +12,13 @@ auto: true
 permalink: /:title
 
 # PERSONALISE ME!
-sitename: Acorn Holistic
+sitename: Acorn Holistic Solutions
 # Replace these details with your own (You can remove everything name: if you don't use them)
 author :
  name: Rochelle Ricketts
- email: rochelle@acornholistic.co.uk
+ email: rochelle@acornholisticsolutions.co.uk
  github: cariad121@github
- twitter: Acornholistic
+ twitter: Acornholistics
  
 
 # If you have set a CNAME (pages.github.com) set your custom domain here.
