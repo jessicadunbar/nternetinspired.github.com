@@ -713,6 +713,7 @@ article footer,
 }
 [role="contentinfo"] ul {
   padding: 0;
+  list-style-type: none;
 }
 [role="contentinfo"] small {
   display: block;
@@ -746,9 +747,6 @@ article footer,
   }
   [role="navigation"] li a {
     padding: .5em 0 .5em 2em;
-  }
-  [role="contentinfo"] li {
-    display: inline-block;
   }
 }
 @media only screen and (min-width: 45em) {
