@@ -14,7 +14,7 @@ Licenses:   DBAD License http://philsturgeon.co.uk/code/dbad-license
 @bodycolor: rgb(30,17,17);
 @background: #fff;
 @baseline: 1.5em;
-@max-width: 60em;
+@max-width: 50em;
 
 @basecolor: rgb(73,153,19);
 @lightcolor: lighten(@basecolor, 40%);
@@ -229,6 +229,10 @@ nav ul {
     padding: 0 @baseline @baseline;
 }
 
+[role="main"] section + section {
+        border-top: 3px double #eee;
+    }
+
 /* article banner image */
 figure {
     position: relative;
@@ -332,8 +336,7 @@ article footer,
 
 @media only screen and (min-width: 45em) {
 
-    [role="banner"] > section,
-    [role="contentinfo"] > section {
+    [role="banner"] > section {
         padding: 2*@baseline @baseline;
     }
 
@@ -366,7 +369,7 @@ article footer,
 
     [role="banner"] > section,
     [role="contentinfo"] > section {
-        padding: 4*@baseline @baseline;
+        padding: 3*@baseline @baseline;
     }
 
 }
