@@ -123,16 +123,11 @@ h6 {
   font-feature-settings: "liga" 1, "dlig" 1;
 }
 blockquote {
-    margin: 2*@baseline 0;
-
-    p {margin: 0;}
-}
-blockquote,
-p[data-pullquote]:before  {
-    padding: @baseline;
+    margin: @baseline 0;
+    font-size: 1.5em;
+    padding: .5*@baseline @baseline;
     border-left: 3px solid @basecolor;
-    color: lighten(@bodycolor, 30%);
-    font-style: italic;
+    color: lighten(@bodycolor, 50%);
     display: block;
 }
 
@@ -141,13 +136,7 @@ blockquote:after {
     content: '';
     content: none;
 }
-p[data-pullquote]:before  {
-    font-size: 1.3em;
-    margin: 0 0 @baseline @baseline;
-    float: right;
-    width: 10em;
-    content: attr(data-pullquote);
-}
+
 pre,code {
     font-family: @codefamily;
     font: .9375em/1.26562em monospace, monospace;
