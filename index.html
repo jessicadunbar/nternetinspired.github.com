@@ -12,11 +12,10 @@ description: Jekyll Me is a Jekyll starter template built by Seth Warburton of i
 {% endif %}
 <section>
     <article>
-        <header><h1>Acorn Holistic Solutions</h1></header>
-        <p>Providing freelance and private support to schools and families in helping children to engage in education and reach their true potential.</p>
+       <h1>Providing freelance and private support to schools and families, helping children to engage in education.</h1>
 </p>
-<h2>At Acorn Holistic Solutions, we passionately believe that everyone should have the opportunity to reach their potential.</h2>
 <p>It can be very difficult to support children, young people and their families to actively engage in education and to help children develop a positive commitment to learning. In these difficult times of austerity and efficiency savings, Schools and families are finding that many of the services that were designed to help them are either being decommissioned, criteria and thresholds made more demanding or some services now present a significant cost to the school budget.</p>
+<blockquote>At Acorn Holistic Solutions, we passionately believe that everyone should have the opportunity to reach their potential.</blockquote>
 <p>In practical terms, Schools are now having to deal with many non-academic issues with very little help and support. Through necessity, Schools are being encouraged to become more pro-active and innovative in how they work with the behavioural, emotional and social difficulties presented by their pupils, and their families.</p>
 <p>
 <h2>Addressing emerging issues before they become entrenched problems</h2>
@@ -44,7 +43,6 @@ description: Jekyll Me is a Jekyll starter template built by Seth Warburton of i
     {% for post in site.posts limit:4 %}
     <article class="article-intro">
         <header><h1><a href="{{ post.url }}">{{ post.title }}</a></h1></header>
-          <footer>{{ post.date | date: "%B %e, %Y"}}</footer>
     </article>
     {% endfor %}
 </section>
