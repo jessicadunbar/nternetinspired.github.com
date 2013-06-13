@@ -1,13 +1,17 @@
 ---
 layout: page
-title: About Green Acorn Services
-image: /img/donkey.jpg
+title: About Acorn Holistic
 ---
-##About 
-I have a back ground in law and probation, Professional certificate in Effective Practice in working with young people, talent in engaging young people and their families in active participation.
+Acorn Holistic objective is to offer an effective, bespoke and responsive service to Schools and families. 
 
-Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
+This service has been developed from experiences of working with families, children and young people within both the voluntary and statutory sector and the knowledge gained from relevant professional qualifications and training.
 
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam.
+An awareness and committment to Children's welfare, Effective Practice and partnership working to is central to the service we offer. 
 
+Real talent in engaging young people and their families in active participation.
+
+Assesmment, Interventions, developing own resources, 1:1 and group work delivery,
+motivational interviewing, cognitive behavioural techniques, solution focused ..range of techniques such as .....
+
+support and signposting for mental health, drugs, housing, vulnerabilty issues, 
 
