@@ -8,7 +8,7 @@ This service has been developed from experiences of working with families, child
 
 An awareness and committment to Children's welfare, Effective Practice and partnership working to is central to the service we offer. 
 
-Real talent in engaging young people and their families in active participation.
+<blockquote>Real talent in engaging young people and their families in active participation.</blockquote>
 
 Assesmment, Interventions, developing own resources, 1:1 and group work delivery,
 motivational interviewing, cognitive behavioural techniques, solution focused ..range of techniques such as .....
