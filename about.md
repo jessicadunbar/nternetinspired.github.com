@@ -10,18 +10,26 @@ With a background of working with children and adults at risk of, and those acti
 
 <h3>Individual intervention;</h3> 
 Using overarching  Effective Practice Principles of Assessment, Planning, Intervention, Review  to assess a child’s need and learning style to develop a realistic action plan. 
-Experienced in developing Education, Training and Employment motivation, Vulnerability and Emotional Wellbeing, Problem Solving, Anger Management and Communication, Bullying, and general Behavioural, Social and Emotional difficulties.
+
+Experienced in developing Education, Training and Employment motivation.
+
+Skilled in addressing Vulnerability and Emotional Wellbeing, Problem Solving, Anger Management and Communication issues, Bullying, and general Behavioural, Social and Emotional difficulties and.
 
 <h3>Groupwork;</h3>
 Experience in delivering and developing  programmes of intervention and workshops with young people, such as 'Participation', general Problem Solving, Substance Misuse, Racism, Homophobia, Anger management, Positive Relationships.  
 
 <h3>Family Intervention;</h3> 
 Working with families as a whole, or separately with adults, signposting and supporting their engagement with partnership/support agencies where appropriate.
-Knowledge and practical experience of Effective Parenting Principles, Family Group Conferencing and Restorative principles. 
+
+Knowledge and practical experience of Positive Parenting Programmes, Family Group Conferencing and Restorative principles. 
 
 <h3>General skills and Experience;</h3> 
 Training and experience in Safeguarding, Mental Health, Vulnerability, Housing, Bereavement, Alcohol and Drug Abuse, Sexual Health, Teenage Relationship Abuse, Learning difficulties and Anger Management Issues. 
+
 ‘Participation’ (including engaging children in Service and Policy development), motivational interviewing, play therapy, heuristic play, solution focused therapy and Restorative practice skills.
+
 Procuring and developing resources, project management, report writing and policy development.
+
 Direct access to a range of resources relating to Learning, Behavioural, Social and Emotional difficulties.
+
 Professional contacts and awareness of referral pathways - appropriate referrals to external agencies and services based upon accurate assessments of need. 
