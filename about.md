@@ -10,7 +10,7 @@ With a background of working with children and adults at risk of, and those acti
 
 <h2>Key skill Areas;</h2>
 
-<h2>Individual intervention</h2>; 
+<h2>Individual intervention;</h2> 
 Using overarching  Effective Practice Principles of Assessment, Planning, Intervention, Review  to assess a child’s need and learning style to develop a realistic action plan. 
 Experienced in developing Education, Training and Employment motivation, Vulnerability and Emotional Wellbeing, Problem Solving, Anger Management and Communication, Bullying, and general Behavioural, Social and Emotional Issues.
 
