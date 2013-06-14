@@ -6,6 +6,8 @@ Our objective is to offer an effective, bespoke and responsive service to School
 <blockquote>Experienced and passionate about engaging young people and their families in active participation in Education.</blockquote>
 With a background of working with children and adults at risk of, and those actively involved in offending, a key part of my previous roles has been to encourage and support those who I have worked with to develop a positive attitude to education, training and employment. It has also been clear that to effect positive and long lasting change for an individual they have had to have been treated as an 'individual'. One of the core committents of Acorn Holistic is that the skills and interventions needed to work effectively with each child or family has to be reflective of their specific needs and circumstances.
 
+Interventions and services will be carried out primarily within the school setting and within the school timetable. This can be reviewed and revised if necessary, occassionally it may be neccessary or more effective to work after school hours or during non-term time, but this can be discussed when relevant. The service can be provided on an ongoing basis, or for a pre-determined length of time, again, this can be tailored to the needs of the child, family and/or school.
+
 <h2>Key skill Areas;</h2>
 
 <h3>Individual intervention;</h3> 
