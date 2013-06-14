@@ -17,7 +17,7 @@ Experience in delivering and developing  programmes of intervention and workshop
 
 <h3>Family Intervention;</h3> 
 Working with families as a whole, or separately with adults, signposting and supporting their engagement with partnership/support agencies where appropriate.
-Knowledge and experience of Effective Parenting Principles, Family Group Conferencing and Restorative principles. 
+Knowledge and practical experience of Effective Parenting Principles, Family Group Conferencing and Restorative principles. 
 
 <h3>General skills and Experience;</h3> 
 Training and experience in Safeguarding, Mental Health, Vulnerability, Housing, Bereavement, Alcohol and Drug, Sexual Health, Teenage Relationship Abuse, Anger Management Issues. 
