@@ -13,7 +13,7 @@ Interventions and services will be carried out primarily within the school setti
 <h3>Individual intervention;</h3> 
 - Using overarching  Effective Practice Principles of Assessment, Planning, Intervention, Review  to assess a child’s need and learning style to develop a realistic action plan. 
 
-- Experienced in developing Education, Training and Employment motivation.
+- Experienced in developing Education, Training and Employment motivation, and working with children and young people with barriers to learning.
 
 - Skilled in addressing Vulnerability and Emotional Wellbeing, Problem Solving, Anger Management, Bullying and Communication issues, and general Behavioural, Social and Emotional difficulties and.
 
@@ -25,13 +25,17 @@ Interventions and services will be carried out primarily within the school setti
 
 - Knowledge and practical experience of Positive Parenting Programmes, Family Group Conferencing and Restorative principles. 
 
+- Experienced in engaging parents and carers directly to enable them to undertand and fulfil their legal responsibilities in relation to their  child's School attendance.
+
 <h3>General skills and Experience;</h3> 
 - Training and experience in Safeguarding, Mental Health, Vulnerability, Housing, Bereavement, Alcohol and Drug Abuse, Sexual Health, Teenage Relationship Abuse, Learning difficulties and Anger Management Issues. 
 
-- ‘Participation’ (including engaging children in Service and Policy development), motivational interviewing, play therapy, heuristic play, solution focused therapy and Restorative practice skills.
+- A range of delivery styles and methods including ‘Participation’ (including engaging children in Service and Policy development), motivational interviewing, play therapy, heuristic play, solution focused therapy and Restorative practice skills.
 
 - Procuring and developing resources, project management, report writing and policy development.
 
+- Managing own caseloads, highly computer literate, effective oral and written communication skills, and experienced in both working independantly and as as part of a team.
+
 - Direct access to a range of resources relating to Learning, Behavioural, Social and Emotional difficulties.
 
-- Professional contacts and awareness of referral pathways - appropriate referrals to external agencies and services based upon accurate assessments of need. 
+- Professional contacts and working knowledge of specialist agencies and resources - appropriate referrals to external agencies and services based upon accurate assessments of need. 
