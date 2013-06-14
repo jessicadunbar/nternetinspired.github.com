@@ -20,6 +20,6 @@ Working with families as a whole, or separately with adults, signposting and sup
 Knowledge and practical experience of Effective Parenting Principles, Family Group Conferencing and Restorative principles. 
 
 <h3>General skills and Experience;</h3> 
-Training and experience in Safeguarding, Mental Health, Vulnerability, Housing, Bereavement, Alcohol and Drug, Sexual Health, Teenage Relationship Abuse, Anger Management Issues. 
-‘Participation’ (including engaging children in Service and Policy development), motivational interviewing, play therapy, solution focused therapy skills,
-Procuring and developing resources, project management, report writing, policy development.
+Training and experience in Safeguarding, Mental Health, Vulnerability, Housing, Bereavement, Alcohol and Drug Abuse, Sexual Health, Teenage Relationship Abuse, Anger Management Issues. 
+‘Participation’ (including engaging children in Service and Policy development), motivational interviewing, play therapy, solution focused therapy and Restorative practice skills.
+Procuring and developing resources, project management, report writing and policy development.
