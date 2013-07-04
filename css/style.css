@@ -619,9 +619,9 @@ section section {
 }
 /* LOGO */
 .logo {
-  background: url(../img/acorn-logo-2x.png);
+  background: url(../img/logo-2x.png);
   background-size: 200px;
-  height: 57px;
+  height: 70px;
   width: 200px;
   margin: 0 auto;
   display: block;
