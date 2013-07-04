@@ -478,13 +478,11 @@ select,
 textarea {
   color: #1e1111;
 }
-html {
-  background: #4183c4;
-}
 body {
   font-size: 75%;
-  line-height: 1.4;
-  font-family: Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+  line-height: 1.6;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
@@ -495,12 +493,12 @@ body {
   hyphens: auto;
 }
 ::-moz-selection {
-  background: #2c5d8d;
+  background: #29550b;
   color: #ffffff;
   text-shadow: none;
 }
 ::selection {
-  background: #2c5d8d;
+  background: #29550b;
   color: #ffffff;
   text-shadow: none;
 }
@@ -508,7 +506,7 @@ body {
    Links
    ========================================================================== */
 a {
-  color: #4183c4;
+  color: #499913;
   text-decoration: none;
   position: relative;
   -webkit-transition: all 0.3s ease;
@@ -518,11 +516,11 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
-  color: #3269a0;
+  color: #336c0d;
   outline: 0;
 }
 a:focus {
-  color: #265079;
+  color: #1e3e08;
   outline: thin dotted;
 }
 a:active {
@@ -554,44 +552,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
-}
-h1,
-h2,
-h3 {
-  text-rendering: optimizeLegibility;
-  font-variant: normal !important;
-  -moz-font-feature-settings: "liga", "dlig";
-  -ms-font-feature-settings: "liga", "dlig";
-  -o-font-feature-settings: "liga", "dlig";
-  -webkit-font-feature-settings: "liga", "dlig";
-  font-feature-settings: "liga", "dlig";
+  font-weight: 300;
+  text-rendering: optimizelegibility;
+  -moz-font-feature-settings: "liga=1, dlig=1";
+  -ms-font-feature-settings: "liga" 1, "dlig" 1;
+  -o-font-feature-settings: "liga" 1, "dlig" 1;
+  -webkit-font-feature-settings: "liga" 1, "dlig" 1;
+  font-feature-settings: "liga" 1, "dlig" 1;
 }
 blockquote {
-  margin: 3em 0;
-}
-blockquote p {
-  margin: 0;
-}
-blockquote,
-p[data-pullquote]:before {
-  padding: 1.5em;
-  border-left: 3px solid #4183c4;
-  color: #804848;
-  font-style: italic;
+  margin: 1.5em 0;
+  font-size: 1.5em;
+  padding: 0.75em 1.5em;
+  border-left: 3px solid #499913;
+  color: #b47a7a;
   display: block;
 }
 blockquote:before,
 blockquote:after {
   content: '';
   content: none;
-}
-p[data-pullquote]:before {
-  font-size: 1.3em;
-  margin: 0 0 1.5em 1.5em;
-  float: right;
-  width: 10em;
-  content: attr(data-pullquote);
 }
 pre,
 code {
@@ -628,16 +608,26 @@ section section {
 }
 /* HEADER */
 [role="banner"] {
-  border-top: 5px solid #4183c4;
   text-align: center;
 }
 [role="banner"] > section {
-  max-width: 60em;
+  max-width: 50em;
   margin: 0 auto;
   padding: 1.5em;
+  border-top: 3px solid #499913;
+  border-bottom: 3px double #eee;
 }
-[role="banner"] h1 {
-  margin: 0;
+/* LOGO */
+.logo {
+  background: url(../img/logo-2x.png);
+  background-size: 200px;
+  height: 70px;
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 /* NAVIGATION */
 /* general nav */
@@ -655,9 +645,12 @@ nav ul {
 /* MAIN CONTENT */
 /* the main content area */
 [role="main"] > section {
-  max-width: 60em;
+  max-width: 50em;
   margin: 0 auto;
   padding: 0 1.5em 1.5em;
+}
+[role="main"] section + section {
+  border-top: 3px double #eee;
 }
 /* article banner image */
 figure {
@@ -697,21 +690,20 @@ article footer,
 }
 /* box the comments */
 .article-comments {
-  background: #dde9f4;
+  background: #b2f088;
   padding: 1.5em;
 }
 /* SITE FOOTER */
-[role="contentinfo"] {
-  background: #4183c4;
-}
 [role="contentinfo"] section {
-  max-width: 60em;
+  max-width: 50em;
   margin: 0 auto;
   padding: 1.5em;
+  border-top: 3px double #eee;
   margin-bottom: 0;
 }
-[role="contentinfo"] a {
-  color: #fff;
+[role="contentinfo"] ul {
+  padding: 0;
+  list-style-type: none;
 }
 [role="contentinfo"] small {
   display: block;
@@ -729,12 +721,15 @@ article footer,
   [role="banner"] {
     text-align: left;
   }
-  .logo,
+  .logo-block,
   [role="navigation"] {
     display: inline-block;
     width: 50%;
     vertical-align: middle;
     margin-right: -0.25em;
+  }
+  .logo {
+    margin: 0;
   }
   [role="navigation"] ul {
     margin: 0;
@@ -745,8 +740,7 @@ article footer,
   }
 }
 @media only screen and (min-width: 45em) {
-  [role="banner"] > section,
-  [role="contentinfo"] > section {
+  [role="banner"] > section {
     padding: 3em 1.5em;
   }
   article header {
@@ -772,7 +766,7 @@ article footer,
   }
   [role="banner"] > section,
   [role="contentinfo"] > section {
-    padding: 6em 1.5em;
+    padding: 4.5em 1.5em;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
