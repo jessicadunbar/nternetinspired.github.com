@@ -13,7 +13,7 @@ permalink: /:title
 
 # PERSONALISE ME!
 sitename: Jekyll Me
-# Replace these details with your own (You can remove everything name: if you don't use them)
+# Replace these details with your own (You can remove everything beginning name: if you don't use them)
 author :
  name: yourname
  email: yourname@yourdomain.com
