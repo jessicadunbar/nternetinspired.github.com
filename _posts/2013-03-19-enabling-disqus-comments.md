@@ -5,7 +5,7 @@ description: How can I add commenting? Why aren't the comments loading on this p
 comments: enabled
 ---
 
-[Disqus](href="http://disqus.com/) commenting is baked right in. To enable comments you simply need to:
+[Disqus](href="http://disqus.com/) commenting is built right in. To enable comments you simply need to:
 
 1. Get a Disqus account.
 2. Enter your Disqus shortname in _config.yml
