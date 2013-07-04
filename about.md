@@ -1,41 +1,18 @@
 ---
 layout: page
-title: About Acorn Children and Young Peoples Services
+title: I'm the short one!
+image: /img/donkey.jpg
+credit: http://www.flickr.com/photos/australian-war-memorial/3527159428/
+description: Seth Warburton is a front-end designer and developer with a passion for user experience engineering and functional design.
 ---
-Our objective is to offer an effective, bespoke and responsive service to Schools and families. This service has been developed from direct experience of working with families, children and young people both within the voluntary and statutory sector and knowledge gained from relevant professional qualifications and training.
-<blockquote>Experienced and passionate about engaging young people and their families in active participation in Education.</blockquote>
-With a background of working with children and adults at risk of, and those actively involved in offending, a key part of my previous roles has been to encourage and support those who I have worked with to develop a positive attitude to education, training and employment. It has also been clear that to effect positive and long lasting change for an individual they have had to have been treated as an 'individual'. One of the core committments of Acorn Services is that the skills and interventions needed to work effectively with each child or family has to be reflective of their specific needs and circumstances.
 
-Interventions and services will be carried out primarily within the school setting and within the school timetable. This can be reviewed and revised if necessary, occassionally it may be neccessary or more effective to work after school hours or during non-term time, but this can be discussed when relevant. The service can be provided on an ongoing basis, or for a pre-determined length of time, again, this can be tailored to the needs of the child, family and/or school.
+Actually, that's not true. Let's move on.
 
-<h2>Key skill Areas;</h2>
+##The real me…
+I'm a geek. On my cards it says 'Designer and Developer' but I'm fine with geek.
 
-<h3>Individual intervention;</h3> 
-- Using overarching  Effective Practice Principles of Assessment, Planning, Intervention, Review  to assess a child’s need and learning style to develop a realistic action plan. 
+Recently, I fell in love with Jekyll, whilst re-building my blog site [Resolutely Me](http://resolutely.me). This is a spin-off from that project, some things I discovered I could do with Jekyll, in code form. If you want to build something fast, bulletproof, device friendly and clean, I think this is a good place to start.
 
-- Experienced in developing Education, Training and Employment motivation, and working with children and young people with barriers to learning.
+Professionaly, I run my own web shop, [Internet Inspired](http://internet-inspired.com), creating new [Joomla](http://joomla.org)-powered websites for start-ups and enterprise customers. I'm <em>very</em> serious about markup standards and performance and very good at hammering Joomla into shape.
 
-- Skilled in addressing Vulnerability and Emotional Wellbeing, Problem Solving, Anger Management, Bullying and Communication issues, and general Behavioural, Social and Emotional difficulties and.
-
-<h3>Groupwork;</h3>
-- Experience in delivering and developing  programmes of intervention and workshops with young people, such as 'Participation', general Problem Solving, Substance Misuse, Racism, Homophobia, Anger management, Positive Relationships.  
-
-<h3>Family Intervention;</h3> 
-- Working with families as a whole, or separately with adults, signposting and supporting their engagement with partnership/support agencies where appropriate.
-
-- Knowledge and practical experience of Positive Parenting Programmes, Family Group Conferencing and Restorative principles. 
-
-- Experienced in engaging parents and carers directly to enable them to undertand and fulfil their legal responsibilities in relation to their  child's School attendance.
-
-<h3>General skills and Experience;</h3> 
-- Training and experience in Safeguarding, Mental Health, Vulnerability, Housing, Bereavement, Alcohol and Drug Abuse, Sexual Health, Teenage Relationship Abuse, Learning difficulties and Anger Management Issues. 
-
-- A range of delivery styles and methods including ‘Participation’ (including engaging children in Service and Policy development), motivational interviewing, play therapy, heuristic play, solution focused therapy and Restorative practice skills.
-
-- Procuring and developing resources, project management, report writing and policy development.
-
-- Managing own caseloads, highly computer literate, effective oral and written communication skills, and experienced in both working independantly and as as part of a team.
-
-- Direct access to a range of resources relating to Learning, Behavioural, Social and Emotional difficulties.
-
-- Professional contacts and working knowledge of specialist agencies and resources - appropriate referrals to external agencies and services based upon accurate assessments of need. 
+I'm at my most sociable on Twitter as [@nternetinspired](http://twitter.com/nternetinspired), and it's by far the easiest way to get hold of me, so feel free to say hi, or just stalk me. Whatever.

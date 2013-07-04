@@ -1,23 +1,13 @@
 ---
-title: Behavioural support and management
+title: I don't like blue &amp; white
 layout: post
-description: 
+description: How to start making visual changes like colour and layout.
 ---
 
-Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
+Good. Don't make your site look the same as everyone else who forked this thing, that would be super lame.
 
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam.Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
+I encourage you to change things. All layout and styling is in a single file, style.css. If you are familiar with LESS you should make changes instead to /less/style.less and then recompile so that syle.css contains your changes.
 
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam.Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
+##I'm scared of LESS
 
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam..
-
-## Additional strategie
-
-Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
-
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam.Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
-
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam.Id nisl philosophia duo, ut magna suscipiantur vix. Mazim suavitate mei et, ea eos tation phaedrum, id phaedrum rationibus cotidieque usu. An magna idque mediocrem vel, te alienum laboramus neglegentur mei. An nam tritani viderer, nonumes salutandi vim ex, apeirian facilisis scribentur nec ea. Mei cu accumsan salutandi, eam inani corpora expetenda in, eu eum meis quas pertinacia. Duo affert imperdiet id. Mea eu nonumy quaeque partiendo, in qui vidisse electram.
-
-Has an utamur labores. In duo diceret minimum scripserit. Eos latine adversarium cu, per numquam inciderint at. Vulputate constituto no quo, nam agam veniam tincidunt id. Mel ut congue rationibus, id vel zril epicuri. Cu docendi detraxit mel, ei stet tacimates eam.
+Not a problem, just edit style.css. You should think about using LESS next time though, it's much faster.
