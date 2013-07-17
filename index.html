@@ -1,7 +1,5 @@
 ---
 layout: default
-image: /img/monster-man.jpg
-credit: http://www.flickr.com/photos/library_of_congress/5019792953/in/photostream/
 description: Jekyll Me is a Jekyll starter template built by Seth Warburton of internet Inspired. Buy him a beer if you want.
 ---
 
@@ -11,27 +9,6 @@ description: Jekyll Me is a Jekyll starter template built by Seth Warburton of i
     <figcaption>Photo credit: {{ page.credit }}</figcaption>
 </figure>
 {% endif %}
-<section>
-    <article>
-        <header><h1>What the funk?</h1></header>
-        <p>Hello. This is Jekyll Me, a thing made by <a href="http://twitter.com/nternetinspired">Seth Warburton</a>, using the awesome <a href="http://jekyllrb.com/">Jekyll</a>.</p>
-        <p>The intention is to provide you with a solid basis on which to build your own awesome Jekyll-powered blog running, <em>for free</em> on Github. It's the new hotness, dontcha know.</p>
-        <p>All the latest buzzwords are built right in; responsive, mobile-first, content first, html5, css3, LESS. I left out all the old boring stuff.</p>
-        <h2>Easy, peasy, lemon, squeezy &reg;</h2>
-        <p>If you can figure out how to create a <a href="https://github.com/">Github</a> account, have some idea what you are doing with html and css and know all about copying/pasting you should be fine.</p>
-        <h3>Gimme, gimme, gimme…</h3>
-        <p>You don't really need to install anything, but for lack of a better word let's call it and install process. It goes like this:</p>
-        <ol>
-            <li>If you don't have one, get a <a href="https://github.com/">Github</a> account.</li>
-            <li>Fork this repository: <a href="https://github.com/nternetinspired/nternetinspired.github.com/">https://github.com/nternetinspired/nternetinspired.github.com</a></li>
-            <li>Click the 'settings' button and rename the repository to <strong>your-github-username</strong>.github.com</li>
-            <li>Wait a couple of minutes, then visit your-github-username.github.com in your browser. Presto.
-        </ol>
-        <h2>How do I turn that into <em>my</em> site?</h2>
-        <p>I wrote a few things down, so if you want you can go check out <a href="/archive.html">the archive</a>. Or just check out the newest articles below.</p>
-    </article>
-</section>
-<section>
 <h1>Latest posts</h1>
     {% for post in site.posts limit:4 %}
     <article class="article-intro">
