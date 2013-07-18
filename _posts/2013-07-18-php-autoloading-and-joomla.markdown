@@ -21,7 +21,7 @@ This is where Joomla comes in. Joomla didn't choose to follow that widely accept
 
 Registering your own prefix for autoloading classes is fairly simple. The function has three parameters; two required and one optional. The two required parameters are `$prefix` and `$path`. The prefix is the part of the class that let's the autoload function know what group of paths to look in, and the path parameter adds a lookup path to the array for the specified prefix. I know that sounds complicated, but hopefully an example will help. When registering a prefix to the autoloader, you would do something like this:
 
-```php
+```
 JLoader::registerPrefix('User', JPATH_LIBRARIES . '/user');
 
 // To register an additional path. Could be used for overrides.
