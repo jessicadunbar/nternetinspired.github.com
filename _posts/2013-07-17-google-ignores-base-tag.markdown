@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Google Ignores base Meta Tag"
-date: 2013-07-17 14:48
+date: 2013-07-17 15:40
 comments: true
 categories: html, google, "base tag"
 ---
