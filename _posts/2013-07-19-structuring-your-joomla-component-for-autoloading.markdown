@@ -40,9 +40,9 @@ Having this happen on controllers might not be so bad, but it's exactly the same
 
 Some may think that using the `JControllerLegacy::getInstance()` method is great since it's environment aware and you don't have to any extra setup - things just work. I would disagree. What if you built a robust component that had multiple views, some plugins and a few modules for good measure. Let's assume one of those modules needed data access, and it would be really helpful if it could use one of your models. Currently, you only have a few choices.
 
-1) Manually include the model file. (bleh)
-2) Duplicate the code from your model to your module helper class. (bleh)
-3) Use `JLoader::register()` to directly register the single class you need. (better than the other 2, but meh. What if requirements change?)
+- Manually include the model file. (bleh)
+- Duplicate the code from your model to your module helper class. (bleh)
+- Use `JLoader::register()` to directly register the single class you need. (better than the other 2, but meh. What if requirements change?)
 
 The best solution, in my opinion, is to properly structure your component from the start.
 
