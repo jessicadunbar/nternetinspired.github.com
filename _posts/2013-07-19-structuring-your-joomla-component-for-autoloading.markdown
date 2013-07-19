@@ -6,7 +6,7 @@ comments: true
 categories: joomla, php, dev, component
 ---
 
-In [my last post](/php-autoloading-and-joomla/), I went over the basics of how PHP (and specifically Joomla) handles autoloading classes when you need the. If you are new to PHP or Joomla and haven't yet read it, I would do that before continuing.
+In [my last post](/php-autoloading-and-joomla/), I went over the basics of how PHP (and specifically Joomla) handles autoloading classes when you need them. If you are new to PHP or Joomla and haven't yet read it, I would do that before continuing.
 
 ## Current Situation
 
