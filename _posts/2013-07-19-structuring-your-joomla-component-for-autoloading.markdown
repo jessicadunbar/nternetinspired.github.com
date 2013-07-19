@@ -10,7 +10,7 @@ In [my last post](/php-autoloading-and-joomla/), I went over the basics of how P
 
 ## Current Situation
 
-Currently, Joomla's autoloading facilities are reserved for core libraries. The components that ship with the CMS do not make use of JLoader for anything. In fact, the structure of the core components really prevents that from happening. A typical core Joomla Component is structure like this: (truncated for brevity)
+Currently, Joomla's autoloading facilities are reserved for core libraries. The components that ship with the CMS do not make use of JLoader for anything. In fact, the structure of the core components really prevents that from happening. A typical core Joomla Component is structured like this: (truncated for brevity)
 
 <pre>
 components/
