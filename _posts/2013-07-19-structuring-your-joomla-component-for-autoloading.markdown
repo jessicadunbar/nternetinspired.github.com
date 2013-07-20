@@ -13,23 +13,22 @@ In [my last post](/php-autoloading-and-joomla/), I went over the basics of how P
 Currently, Joomla's autoloading facilities are reserved for core libraries. The components that ship with the CMS do not make use of JLoader for anything. In fact, the structure of the core components really prevents that from happening. A typical core Joomla Component is structured like this: (truncated for brevity)
 
 <pre>
-components/
-|- com_content/         // Main Component Folder
-|--- content.php        // Component entry file.
-|--- controller.php     // class: ContentController
-|--- controllers/       // Holds component controllers
-|----- article.php      // class: ContentControllerArticle
-|--- helpers/           // Holds helper classes
-|----- article.php      // class: ContentHelperArticle
-|--- models/            // Holds component models
-|----- article.php      // class: ContentModelArticle
-|--- router.php         // Component router file
-|--- views/             // Holds compoent views
-|----- article/         // The article view
-|------- tmpl/          // Holds layouts within the article view
-|--------- default.php  // The default layout for the article view.
-|------- view.html.php  // class: ContentViewArticle
-|------- view.json.php  // class: ContentViewArticle
+components/com_content   // Main Component Folder
+|- content.php           // Component entry file.
+|- controller.php        // class: ContentController
+|- controllers/          // Holds component controllers
+|  `- article.php        // class: ContentControllerArticle
+|- helpers/              // Holds helper classes
+|  `- article.php        // class: ContentHelperArticle
+|- models/               // Holds component models
+|  `- article.php        // class: ContentModelArticle
+|- router.php            // Component router file
+`- views/                // Holds compoent views
+   `- article/           // The article view
+      |- tmpl/           // Holds layouts within the article view
+      |  `- default.php  // The default layout for the article view.
+      |- view.html.php   // class: ContentViewArticle
+      `- view.json.php   // class: ContentViewArticle
 </pre>
 
 Since you've read my previous post about typical autoloading in Joomla, you should have no problem seeing why this current structure prevents you from using `JLoader::registerPrefix('Content', JPATH_SITE . '/components/com_content');` to be able to autoload all these classes. If you tried to instantiate a controller using `$controller = new ContentControllerArticle`, it would look for the file in `com_content/controller/article.php`. That path, however, does not exist. A typical component structure calls for you to have your controller classes in a folder named `controllers` instead of the singular (and that which matches your controllers name) `controller` folder. So trying to use that errors out.
@@ -54,24 +53,24 @@ The basic answer, and the one I'm going to leave you with today, is that you nee
 
 So what you need to know for now is what the "proper" component structure looks like. I leave you with that below.
 
+
 <pre>
-components/
-|- com_content/         // Main Component Folder
-|--- content.php        // Component entry file.
-|--- controller/        // Holds component controllers
-|----- article.php      // class: ContentControllerArticle
-|----- controller.php   // class: ContentController
-|--- helper/            // Holds helper classes
-|----- article.php      // class: ContentHelperArticle
-|--- model/             // Holds component models
-|----- article.php      // class: ContentModelArticle
-|--- router.php         // Component router file
-|--- view/              // Holds compoent views
-|----- article/         // The article view
-|------- tmpl/          // Holds layouts within the article view
-|--------- default.php  // The default layout for the article view.
-|------- html.php       // class: ContentViewArticleHtml
-|------- json.php       // class: ContentViewArticleJson
+components/com_content   // Main Component Folder
+|- content.php           // Component entry file.
+|- controller/           // Holds component controllers
+|  |- article.php        // class: ContentControllerArticle
+|  `- controller.php     // class: ContentController
+|- helper/               // Holds helper classes
+|  `- article.php        // class: ContentHelperArticle
+|- model/                // Holds component models
+|  `- article.php        // class: ContentModelArticle
+|- router.php            // Component router file
+`- view/                 // Holds compoent views
+   `- article/           // The article view
+      |- tmpl/           // Holds layouts within the article view
+      |  `- default.php  // The default layout for the article view.
+      |- html.php        // class: ContentViewArticleHtml
+      `- json.php        // class: ContentViewArticleJson
 </pre>
 
 Looks easy, right? There are a few gotchas, and I'll cover those in the next article. Have any questions? That's what the comments section is for.
