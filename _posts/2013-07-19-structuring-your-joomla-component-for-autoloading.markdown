@@ -23,7 +23,7 @@ components/com_content   // Main Component Folder
 |- models/               // Holds component models
 |  `- article.php        // class: ContentModelArticle
 |- router.php            // Component router file
-`- views/                // Holds compoent views
+`- views/                // Holds component views
    `- article/           // The article view
       |- tmpl/           // Holds layouts within the article view
       |  `- default.php  // The default layout for the article view.
@@ -65,7 +65,7 @@ components/com_content   // Main Component Folder
 |- model/                // Holds component models
 |  `- article.php        // class: ContentModelArticle
 |- router.php            // Component router file
-`- view/                 // Holds compoent views
+`- view/                 // Holds component views
    `- article/           // The article view
       |- tmpl/           // Holds layouts within the article view
       |  `- default.php  // The default layout for the article view.
