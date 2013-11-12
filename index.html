@@ -12,7 +12,7 @@ description: A chronological listing of previous blog posts
 		<aside>{{ post.date | date: "%B %e, %Y" }}</aside>
 		</header>
 
-		<p>{{ post.content | truncatewords: 50 }} <a href="archive/{{post.url}}">read more</a></p>
+		<p>{{ post.content | truncatewords: 50 }} <a href="{{post.url}}">read more</a></p>
 	</article>
 	{% endfor %}
 
