@@ -2,16 +2,16 @@
 layout: default
 ---
 
-				<article class="full-article">
-					{% if page.image != null %}
-					<figure class="banner">
-					    <img src="{{ page.image }}" />
-					    <figcaption>Photo credit: {{ page.credit }}</figcaption>
-					</figure>
-					{% endif %}
-					<header>
-						<h1 class="article-heading">{{page.title}}</h1>
-					</header>
-					<footer>{{ page.date | date: "%B %e, %Y" }}</footer>
-						{{ content }}
-				</article>
+<article class="full-article">
+	{% if page.image != null %}
+	<figure class="banner">
+		<img src="{{ page.image }}" />
+		<figcaption>Photo credit: {{ page.credit }}</figcaption>
+	</figure>
+	{% endif %}
+	<header>
+		<h1 class="article-heading">{{page.title}}</h1>
+	</header>
+	<footer>{{ page.date | date: "%B %e, %Y" }}</footer>
+	{{ content }}
+</article>
