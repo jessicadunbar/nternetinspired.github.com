@@ -4,7 +4,7 @@ layout: post
 description: How do I post stuff using Jekyll and Github
 ---
 
-Again, super-simple. Just create a new file, in markdown format with the date and title in the filename. Drop it in the _posts folder and Jekyll and Github take care of everything else.
+Again, super-simple. Just create a new file, in markdown format with the date and title in the filename. Drop it in the `_posts` folder and Jekyll and Github take care of everything else.
 
 ##Read, copy, learn
 Seriously, just look at the posts already in that folder, they create the output you see. This one is called 2013-03-18-writing-posts.md
@@ -16,7 +16,7 @@ layout: post is the default used to render your blog posts. These are different 
 ###I don't want comments.
 That's not a problem. If that's only for selected posts, just remove the 'comments: enabled' string from the post in question.
 
-If you never want comments, it's better to remove the comment code block from _layouts/post.html instead and save some code. You can stop bothering with the 'comments: enabled' string at that point also.
+If you never want comments, it's better to remove the comment code block from `_layouts/post.html` instead and save some code. You can stop bothering with the 'comments: enabled' string at that point also.
 
 ##I don't like your layouts
-As is your prerogative. Simply edit the layout files in the _layouts folder, pages or posts for the specific section, default.html for everything else.
+As is your prerogative. Simply edit the layout files in the `_layouts` folder, pages or posts for the specific section, default.html for everything else.
