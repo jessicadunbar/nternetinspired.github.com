@@ -6,27 +6,28 @@ Created:    March 2013
 Copyright:  Seth Warburton - (C) 2013 - All rights reserved
 Licenses:   DBAD License http://philsturgeon.co.uk/code/dbad-license
 /* ===================================================================== */
-
 // Normalize all the things
 @import "normalize.less";
 
 // Set some LESS variables
-@bodycolor: rgb(30,17,17);
+@bodycolor: #333333;
 @background: #fff;
 @baseline: 1.5em;
 @max-width: 60em;
 
-@basecolor: #4183c4; // Github blue of course
+@basecolor: #000;
 @lightcolor: lighten(@basecolor, 40%);
-@linkcolor: @basecolor;
+@linkcolor: #2C001E;
+@linkhovercolor: #DD4814;
+@banneranchor: #fff;
 
 @serif        : Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
 @sanserif     : "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-@bodyfamily   : @serif;
+@bodyfamily   : @sanserif;
 @codefamily   : Monaco, Courier New, monospace;
 
-@bordercolor      : rgb(239,239,239);
-@rgbabordercolor  : rgba(0,0,0,.075);
+@bordercolor      : rgb(239, 239, 239);
+@rgbabordercolor  : rgba(0, 0, 0, .075);
 
 // And bring in the mixins
 @import "mixins.less";
@@ -35,7 +36,7 @@ Licenses:   DBAD License http://philsturgeon.co.uk/code/dbad-license
    Root styles
    ========================================================================== */
 * {
-    .box-sizing;
+  .box-sizing;
 }
 
 html,
@@ -43,33 +44,33 @@ button,
 input,
 select,
 textarea {
-    color: @bodycolor;
+  color : @bodycolor;
 }
 
 html {
-    background: @basecolor;
+  background : @basecolor;
 }
 
 body {
-    font-size: 75%;
-    line-height: 1.4;
-    font-family: @bodyfamily;
-    background: @background;
-    -webkit-font-smoothing: antialiased;
-    text-shadow: 0 0 1px rgba(0,0,0,.1);
-    .hyphens;
+  font-size              : 100%;
+  line-height            : 1.4;
+  font-family            : @bodyfamily;
+  background             : @background;
+  -webkit-font-smoothing : antialiased;
+  text-shadow            : 0 0 1px rgba(0, 0, 0, .1);
+  .hyphens;
 }
 
 ::-moz-selection {
-    background: darken(@basecolor, 15%);
-    color: @background;
-    text-shadow: none;
+  background  : darken(@basecolor, 15%);
+  color       : @background;
+  text-shadow : none;
 }
 
 ::selection {
-    background: darken(@basecolor, 15%);
-    color: @background;
-    text-shadow: none;
+  background  : darken(@basecolor, 15%);
+  color       : @background;
+  text-shadow : none;
 }
 
 /* ==========================================================================
@@ -77,35 +78,40 @@ body {
    ========================================================================== */
 
 a {
-    color: @linkcolor;
-    text-decoration: none;
-    position: relative;
-    .transition;
+  color           : @linkcolor;
+  text-decoration : none;
+  position        : relative;
+  font-weight     : bold;
+  .transition;
 
-    &:hover {
-    color: darken(@linkcolor, 10%);
-    outline: 0;}
+  &:hover {
+	color   : @linkhovercolor;
+	outline : 0;
+  }
 
-    &:focus {
-    color: darken(@linkcolor, 20%);
-    outline: thin dotted;}
+  &:focus {
+	color   : darken(@linkcolor, 20%);
+	outline : thin dotted;
+  }
 
-    &:active {
-    .translate(0, 1px);
-    outline: 0;}
+  &:active {
+	.translate(0, 1px);
+	outline : 0;
+  }
 }
 
 /* ==========================================================================
    Images
    ========================================================================== */
 img {
-    max-width: 100%;
-    border-width: 0;
-    vertical-align: middle;
-    -ms-interpolation-mode: bicubic;
+  max-width              : 100%;
+  border-width           : 0;
+  vertical-align         : middle;
+  -ms-interpolation-mode : bicubic;
 }
+
 svg:not(:root) {
-    overflow: hidden;
+  overflow : hidden;
 }
 
 /* ==========================================================================
@@ -117,255 +123,283 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: normal;
+  font-weight : normal;
 }
 
 h1,
 h2,
 h3 {
-    text-rendering: optimizeLegibility;
-    font-variant: normal !important;
-    -moz-font-feature-settings: "liga", "dlig";
-    -ms-font-feature-settings: "liga", "dlig";
-    -o-font-feature-settings: "liga", "dlig";
-    -webkit-font-feature-settings: "liga", "dlig";
-    font-feature-settings: "liga", "dlig";
+  text-rendering                : optimizeLegibility;
+  font-variant                  : normal !important;
+  -moz-font-feature-settings    : "liga", "dlig";
+  -ms-font-feature-settings     : "liga", "dlig";
+  -o-font-feature-settings      : "liga", "dlig";
+  -webkit-font-feature-settings : "liga", "dlig";
+  font-feature-settings         : "liga", "dlig";
 }
-blockquote {
-    margin: 2*@baseline 0;
 
-    p {margin: 0;}
+blockquote {
+  margin : 2*@baseline 0;
+
+  p {
+	margin : 0;
+  }
 }
+
 blockquote,
-p[data-pullquote]:before  {
-    padding: @baseline;
-    border-left: 3px solid @basecolor;
-    color: lighten(@bodycolor, 30%);
-    font-style: italic;
-    display: block;
+p[data-pullquote]:before {
+  padding     : @baseline;
+  border-left : 3px solid @basecolor;
+  color       : lighten(@bodycolor, 30%);
+  font-style  : italic;
+  display     : block;
 }
 
 blockquote:before,
 blockquote:after {
-    content: '';
-    content: none;
+  content : '';
+  content : none;
 }
-p[data-pullquote]:before  {
-    font-size: 1.3em;
-    margin: 0 0 @baseline @baseline;
-    float: right;
-    width: 10em;
-    content: attr(data-pullquote);
+
+p[data-pullquote]:before {
+  font-size : 1.3em;
+  margin    : 0 0 @baseline @baseline;
+  float     : right;
+  width     : 10em;
+  content   : attr(data-pullquote);
 }
-pre,code {
-    font-family: @codefamily;
-    font: .9375em/1.26562em monospace, monospace;
-    background: darken(@background, 5%);
-    border: 1px solid @bordercolor;
-    color: rgb(90,90,90);
-    padding: 1.5em 1em;
-    margin: 3em 0;
-    line-height: 1em;
-    white-space: pre;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+
+pre, code {
+  font-family : @codefamily;
+  font        : .9375em/1.26562em monospace, monospace;
+  background  : darken(@background, 5%);
+  border      : 1px solid @bordercolor;
+  color       : rgb(90, 90, 90);
+  padding     : 1.5em 1em;
+  margin      : 3em 0;
+  line-height : 1em;
+  white-space : pre;
+  white-space : pre-wrap;
+  word-wrap   : break-word;
 }
+
 .amp,
 em,
 figcaption,
 small {
-    font-style: italic;
+  font-style : italic;
 }
+
 abbr {
-    text-transform: lowercase;
-    font-variant: small-caps;
-    letter-spacing: 0.1em;
-    cursor: help;
+  text-transform : lowercase;
+  font-variant   : small-caps;
+  letter-spacing : 0.1em;
+  cursor         : help;
 }
+
 /* ==========================================================================
    Layout
    ========================================================================== */
 
 /* give all the sections some breathing space */
 section section {
-    padding: @baseline 0;
+  padding : @baseline 0;
 }
 
 /* HEADER */
 [role="banner"] {
-    border-top: 5px solid @basecolor;
-    text-align: center;
+  background : @basecolor;
+  text-align : center;
 
-    > section {
-        .container;
-        padding: @baseline;}
+  a {
+	color : @banneranchor;
+	&:hover {
+	  color : @linkhovercolor;
+	}
 
-    h1 {
-        margin: 0;}
+  }
+
+  > section {
+	.container;
+	padding : @baseline;
+  }
+
+  h1 {
+	margin : 0;
+  }
 }
 
 /* NAVIGATION */
 /* general nav */
 nav ul {
-    padding: 0;
-    margin-bottom: 0;
+  padding       : 0;
+  margin-bottom : 0;
 }
 
 /* main nav */
 [role="navigation"] li {
-    display: inline-block;
+  display : inline-block;
 
-    a {
-        padding: .5em 1em;
-    }
+  a {
+	padding : .5em 1em;
+  }
 }
 
 /* MAIN CONTENT */
 /* the main content area */
 [role="main"] > section {
-    .container;
-    padding: 0 @baseline @baseline;
+  .container;
+  padding : 0 @baseline @baseline;
 }
 
 /* article banner image */
 figure {
-    position: relative;
-    margin-bottom: @baseline;
+  position      : relative;
+  margin-bottom : @baseline;
 
-    img {
-        width: 100%;}
+  img {
+	width : 100%;
+  }
 
-    figcaption {
-        font-style: italic;
-        color: lighten(@bodycolor, 20%);
-        font-size: .75em;
-        margin-top: .5em;}
+  figcaption {
+	font-style : italic;
+	color      : lighten(@bodycolor, 20%);
+	font-size  : .75em;
+	margin-top : .5em;
+  }
 }
 
 /* article footer items */
 article footer,
 .readmore {
-    font-style: italic;
+  font-style : italic;
 }
+
 .article-nav {
-    list-style-type: none;
-    padding: 0;
+  list-style-type : none;
+  padding         : 0;
 
-    li {
-        display: inline-block;
-        width: 50%;
-        vertical-align: middle;
-        margin-right: -.25em;}
+  li {
+	display        : inline-block;
+	width          : 50%;
+	vertical-align : middle;
+	margin-right   : -.25em;
+  }
 
-    .next {
-        text-align: right;}
+  .next {
+	text-align : right;
+  }
 }
 
 /* reduce size of h1 on article lists */
 .article-intro h1 {
-    font-size: 1.5em;
+  font-size : 1.5em;
 }
 
 /* box the comments */
 .article-comments {
-    background: lighten(@basecolor, 40%);
-    padding: @baseline;
+  background : lighten(@basecolor, 40%);
+  padding    : @baseline;
 }
 
 /* SITE FOOTER */
 [role="contentinfo"] {
-    background: @basecolor;
+  background : @basecolor;
 
-    section {
-        .container;
-        padding: @baseline;
-        margin-bottom: 0;}
+  section {
+	.container;
+	padding       : @baseline;
+	margin-bottom : 0;
+  }
 
-    a {
-    color: #fff;}
+  a {
+	color :#fff;
+	.transition;
 
-    small {
-        display: block;
-        margin: 1em 0;
-    }
+	&:hover {
+	  color : @linkhovercolor;
+	}
+  }
+
+  small {
+	display : block;
+	margin  : 1em 0;
+  }
 }
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-@media only screen and (min-width: 20em) {
-    body {
-        font-size: 100%;
-    }
-}
-@media only screen and (min-width: 35em) {
-
-    [role="banner"] {
-        text-align: left;
-    }
-
-    .logo,
-    [role="navigation"] {
-        display: inline-block;
-        width:50%;
-        vertical-align: middle;
-        margin-right: -.25em;
-    }
-
-    [role="navigation"] ul {
-        margin: 0;
-        text-align: right;
-    }
-
-    [role="navigation"] li a {
-        padding: .5em 0 .5em 2em;
-    }
+@media only screen and (min-width : 20em) {
+  body {
+	font-size : 100%;
+  }
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width : 35em) {
 
-    [role="banner"] > section,
-    [role="contentinfo"] > section {
-        padding: 2*@baseline @baseline;
-    }
+  [role="banner"] {
+	text-align : left;
+  }
 
-    article header {
-        display: inline-block;
-        vertical-align: middle;
-        width: 61%;
-    }
-    article footer {
-        display: inline-block;
-        vertical-align: middle;
-        width: 38.2%;
-        text-align: right;
-    }
+  .logo,
+  [role="navigation"] {
+	display        : inline-block;
+	width          : 50%;
+	vertical-align : middle;
+	margin-right   : -.25em;
+  }
+
+  [role="navigation"] ul {
+	margin     : 0;
+	text-align : right;
+  }
+
+  [role="navigation"] li a {
+	padding : .5em 0 .5em 2em;
+  }
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width : 45em) {
 
-    body {
-        font-size: 106%;
-    }
+  [role="banner"] > section,
+  [role="contentinfo"] > section {
+	padding : .5 * @baseline @baseline;
+  }
 
+  article header {
+	display        : inline-block;
+	vertical-align : middle;
+	width          : 61%;
+  }
+
+  article footer {
+	display        : inline-block;
+	vertical-align : middle;
+	width          : 38.2%;
+	text-align     : right;
+  }
 }
 
-@media only screen and (min-width: 118em) {
+@media only screen and (min-width : 90em) {
 
-    body {
-        font-size: 112%;
-    }
-
-    [role="banner"] > section,
-    [role="contentinfo"] > section {
-        padding: 4*@baseline @baseline;
-    }
+  body {
+	font-size : 106%;
+  }
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) {
-    /* Style adjustments for high resolution devices */
+@media only screen and (min-width : 118em) {
+
+  body {
+	font-size : 112%;
+  }
+
+  [role="banner"] > section,
+  [role="contentinfo"] > section {
+	padding : 4*@baseline @baseline;
+  }
+
 }
 
 /* ==========================================================================
@@ -375,68 +409,67 @@ article footer,
    ========================================================================== */
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  * {
+	background  : transparent !important;
+	color       : #000 !important; /* Black prints faster: h5bp.com/s */
+	box-shadow  : none !important;
+	text-shadow : none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+	text-decoration : underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+	content : " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+	content : " (" attr(title) ")";
+  }
 
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
+  /*
+ * Don't show links for images, or javascript/internal links
+ */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+	content : "";
+  }
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+  pre,
+  blockquote {
+	border            : 1px solid #999;
+	page-break-inside : avoid;
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  thead {
+	display : table-header-group; /* h5bp.com/t */
+  }
 
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
+  tr,
+  img {
+	page-break-inside : avoid;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  img {
+	max-width : 100% !important;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  @page {
+	margin : 0.5cm;
+  }
 
-    @page {
-        margin: 0.5cm;
-    }
+  p,
+  h2,
+  h3 {
+	orphans : 3;
+	widows  : 3;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+	page-break-after : avoid;
+  }
 }
