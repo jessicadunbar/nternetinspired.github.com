@@ -12,17 +12,17 @@ auto: true
 permalink: /:title
 
 # PERSONALISE ME!
-sitename: Jekyll Me
+sitename: matt-thomas.me
 # Replace these details with your own (You can remove everything beginning name: if you don't use them)
 author :
- name: yourname
- email: yourname@yourdomain.com
- github: your-username
- twitter: your-username
- disqus: your-username
+ name: Matt Thomas
+ email: me@matt-thomas.me
+ github: betweenbrain
+ twitter: betweenbrain
+ disqus: betweenbrain
 
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.com, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-#production_url : http://your-username.github.com
+production_url : http://betweenbrain.github.com
