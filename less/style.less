@@ -18,8 +18,8 @@ Licenses:   DBAD License http://philsturgeon.co.uk/code/dbad-license
 @basecolor: #000;
 @lightcolor: lighten(@basecolor, 40%);
 @linkcolor: #2C001E;
-@linkhovercolor: #DD4814;
-@banneranchor: #fff;
+@linkhovercolor: #F26922;
+@secondarylinkcolor: #FFCC00;
 
 @serif        : Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
 @sanserif     : "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -212,7 +212,7 @@ section section {
   text-align : center;
 
   a {
-	color : @banneranchor;
+	color : @secondarylinkcolor;
 	&:hover {
 	  color : @linkhovercolor;
 	}
@@ -305,6 +305,7 @@ article footer,
 /* SITE FOOTER */
 [role="contentinfo"] {
   background : @basecolor;
+  color: #fff;
 
   section {
 	.container;
@@ -313,7 +314,7 @@ article footer,
   }
 
   a {
-	color :#fff;
+	color : @secondarylinkcolor;
 	.transition;
 
 	&:hover {
