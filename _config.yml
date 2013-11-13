@@ -5,8 +5,9 @@
 # If, like me, you prefer tabs over spaces for indentation, polease be aware that using tabs in YAML
 # files used by Jekyll breaks stuff. Don't do that. Single space only in YAML front matter.
 
-
-# Seth the default URL structure for posts. See for details:
+# Set the markdown parsre to the less fragile Redcarpet
+markdown: redcarpet
+# Set the default URL structure for posts. See for details:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:title
 
