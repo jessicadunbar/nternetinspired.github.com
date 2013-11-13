@@ -14,7 +14,9 @@ auto: true
 
 # Seth the default URL structure for posts. See for details:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:title
+permalink: post/:title
+
+version: 0.1
 
 # Pagination
 paginate: 5
