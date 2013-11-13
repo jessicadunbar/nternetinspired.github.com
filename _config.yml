@@ -5,7 +5,6 @@
 # If, like me, you prefer tabs over spaces for indentation, polease be aware that using tabs in YAML
 # files used by Jekyll breaks stuff. Don't do that. Single space only in YAML front matter.
 
-auto: true
 
 # Seth the default URL structure for posts. See for details:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
