@@ -5,14 +5,13 @@ description: A chronological listing of previous blog posts
 ---
 
 <section class="all-posts">
-	<h1 class="article-heading">{{page.title}}</h1>
 	{% for post in site.posts %}
 	<article class="article-intro">
 		<header><h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 		<aside>{{ post.date | date: "%B %e, %Y" }}</aside>
 		</header>
 
-		<p>{{ post.content | truncatewords: 50 }} <a href="{{post.url}}">read more</a></p>
+		<p>{{ post.content | truncatewords: 50 }}</p><p> <a href="{{post.url}}">&hellip; continue reading {{ post.title }}</a></p>
 	</article>
 	{% endfor %}
 
