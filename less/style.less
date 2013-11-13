@@ -161,6 +161,19 @@ blockquote:after {
   content : none;
 }
 
+.logo {
+
+  position: relative;
+
+  small{
+	display: block;
+	position: absolute;
+	top: 1.15em;
+	left: 7.5em;
+	color: @linkhovercolor;
+  }
+}
+
 p[data-pullquote]:before {
   font-size : 1.3em;
   margin    : 0 0 @baseline @baseline;
@@ -327,6 +340,29 @@ article footer,
 	margin  : 1em 0;
   }
 }
+
+.thumbnail img {
+  background-color           : white;
+  -webkit-border-radius      : 100px;
+  -moz-border-radius         : 100px;
+  -ms-border-radius          : 100px;
+  -o-border-radius           : 100px;
+  border-radius              : 100px;
+  border-top-left-radius     : 100px;
+  border-top-right-radius    : 100px;
+  border-bottom-left-radius  : 100px;
+  border-bottom-right-radius : 100px;
+  position                   : relative;
+  text-align                 : center;
+  overflow                   : hidden;
+  -webkit-background-clip    : padding-box;
+  -moz-background-clip       : padding;
+  background-clip            : padding-box;
+  width                      : 165px !important;
+  border                     : 5px solid white;
+  float                      : left;
+}
+
 
 /* ==========================================================================
    Media Queries
